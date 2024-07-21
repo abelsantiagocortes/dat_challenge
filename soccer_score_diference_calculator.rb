@@ -11,7 +11,7 @@ module SoccerScoreDifferenceCalculator
 
   def self.goals_difference
     team_data.each_with_object({}) do |team_info, teams_difference|
-      next unless invalid_row(team_info)
+      next unless valid_row(team_info)
 
       team_info = team_info.split
       team_name = team_info[1].to_sym
@@ -19,7 +19,7 @@ module SoccerScoreDifferenceCalculator
     end
   end
 
-  def self.invalid_row(team_info)
+  def self.valid_row(team_info)
     team_info.split.size == 10
   end
 

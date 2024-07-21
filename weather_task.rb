@@ -1,0 +1,3 @@
+require_relative 'daily_weather_spread_calculator'
+
+p DailyWeatherSpreadCalculator.day_number_with_smallest_spread

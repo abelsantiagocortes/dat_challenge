@@ -27,6 +27,6 @@ module DailyWeatherSpreadCalculator
 
   def self.day_number_with_smallest_spread
     day_index = weather_spread.find_index(smallest_spread)
-    day_index ? day_index + 1 : nil
+    day_index ? day_index + 1 : 1
   end
 end

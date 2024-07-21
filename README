@@ -25,5 +25,5 @@ Weather and Soccer challenge solved using Ruby.
 ### Run tests:**
 
 ```bash
-  rspec
+ rspec --format documentation
 ```

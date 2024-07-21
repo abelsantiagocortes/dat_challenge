@@ -7,12 +7,12 @@ Weather and Soccer challenge solved using Ruby.
     Ruby(>= 3.x)
     Bundler(>= 2.5.x)
 
-### Install dependencies:**
+### Install dependencies:
 
 ```bash
   bundle install
 ```
-### Run scripts:**
+### Run scripts:
 
 ```bash
   ruby soccer_task.rb
@@ -22,7 +22,7 @@ Weather and Soccer challenge solved using Ruby.
   ruby weather_task.rb
 ```
 
-### Run tests:**
+### Run tests:
 
 ```bash
  rspec --format documentation

@@ -1,6 +1,6 @@
 
 require 'rspec'
-require_relative '../soccer_score_diference_calculator'
+require_relative '../modules/soccer_score_diference_calculator'
 
 RSpec.describe SoccerScoreDifferenceCalculator, type: :module do
   before do

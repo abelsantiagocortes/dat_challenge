@@ -1,5 +1,5 @@
 require 'rspec'
-require_relative '../daily_weather_spread_calculator'
+require_relative '../modules/daily_weather_spread_calculator'
 
 RSpec.describe DailyWeatherSpreadCalculator, type: :module do
   before do

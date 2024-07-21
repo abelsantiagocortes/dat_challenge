@@ -1,3 +1,3 @@
-require_relative 'soccer_score_diference_calculator.rb'
+require_relative 'modules/soccer_score_diference_calculator.rb'
 
 p SoccerScoreDifferenceCalculator.smallest_score_difference_team

@@ -16,9 +16,12 @@ RSpec.describe DailyWeatherSpreadCalculator, type: :module do
       "04 32 30\n",
       "05 30 29\n",
       "\n",
-      "\n",
+      "\n"
     ]
-    allow(File).to receive(:readlines).with(DailyWeatherSpreadCalculator::FILEPATH).and_return(@weather_file_content)
+    allow(File)
+      .to receive(:readlines)
+      .with(DailyWeatherSpreadCalculator::FILEPATH)
+      .and_return(@weather_file_content)
   end
 
   describe '.weather_data' do
